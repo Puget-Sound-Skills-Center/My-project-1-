@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 6566791702168908828}
   m_Layer: 0
   m_Name: L_Bridge with dodge
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -476,9 +476,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6566791702168908828}
     m_Modifications:
+    - target: {fileID: 664401870721757412, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 2153474926808615631, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
       propertyPath: m_Name
       value: Dodge
+      objectReference: {fileID: 0}
+    - target: {fileID: 2153474926808615631, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2414423103505649893, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -487,6 +495,26 @@ PrefabInstance:
     - target: {fileID: 2414423103505649893, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1.829
+      objectReference: {fileID: 0}
+    - target: {fileID: 2557819463536356306, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133698028815207785, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574888186113392393, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5630642420011099214, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6441230955218238851, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 6883028614798736344, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -527,6 +555,10 @@ PrefabInstance:
     - target: {fileID: 6883028614798736344, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417525670390649728, guid: 53b53f47315bc7d4396f5ec499d382ea, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
